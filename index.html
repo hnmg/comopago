@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <title>ComoPago — Sobre o aplicativo</title>
-  <meta name="description" content="Conheça o aplicativo ComoPago e acesse sua política de privacidade.">
+  <meta name="description" content="Saiba como o ComoPago compara o pagamento à vista com o parcelado usando uma taxa anual de referência informada por você.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,17 +19,28 @@
   <main class="container">
     <p class="eyebrow">Aplicativo</p>
     <h1>Sobre o ComoPago</h1>
-    <p class="lead">Informações sobre o aplicativo e um canal claro para consultar sua política de privacidade.</p>
+    <p class="lead">Compare o pagamento à vista com o parcelado levando em conta o que o dinheiro poderia render enquanto as parcelas são pagas.</p>
 
     <section class="content-section" aria-labelledby="app-title">
-      <h2 id="app-title">O aplicativo</h2>
-      <p class="placeholder">[Descreva em uma frase o que o ComoPago faz e para quem foi criado.]</p>
-      <p>Inclua aqui uma explicação breve da proposta do app e de suas principais funcionalidades, com informações confirmadas pelo responsável.</p>
+      <h2 id="app-title">O que o aplicativo faz</h2>
+      <p>O ComoPago é um aplicativo mobile que estima qual opção pode compensar mais: pagar à vista ou parcelar. A comparação considera o valor presente das parcelas e uma taxa anual de referência informada manualmente por você.</p>
+    </section>
+
+    <section class="content-section" aria-labelledby="how-title">
+      <h2 id="how-title">Como funciona a simulação</h2>
+      <p>Para fazer uma comparação, informe o preço original, o preço à vista, o valor e a quantidade das parcelas e uma taxa anual de referência — na primeira versão, a Selic é digitada manualmente.</p>
+      <p>O aplicativo calcula o valor presente das parcelas, compara esse resultado com o preço à vista e apresenta uma conclusão: <strong>vale parcelar</strong>, <strong>vale pagar à vista</strong> ou <strong>os valores são equivalentes</strong>. Quando há desconto, também mostra a economia em reais e em percentual.</p>
+    </section>
+
+    <section class="content-section" aria-labelledby="assumptions-title">
+      <h2 id="assumptions-title">Premissas e limites</h2>
+      <p>A simulação considera parcelas mensais iguais, com a primeira vencendo em um mês, e um rendimento bruto igual à taxa informada. Não inclui impostos, IOF ou tarifas.</p>
+      <p>Por isso, os resultados são <strong>estimativas informativas, não recomendações financeiras</strong>. O aplicativo começa gratuito; nesta etapa não há cobrança, assinatura, paywall ou funcionalidades bloqueadas.</p>
     </section>
 
     <section class="content-section" aria-labelledby="privacy-title">
       <h2 id="privacy-title">Privacidade</h2>
-      <p>Consulte a política para saber quais dados podem ser tratados, para quais finalidades e como entrar em contato com o responsável.</p>
+      <p>As informações da simulação são processadas e armazenadas localmente no aparelho. O ComoPago não exige cadastro e não envia esses dados para a nuvem.</p>
       <a class="text-link" href="privacy/">Ler a Política de Privacidade <span aria-hidden="true">→</span></a>
     </section>
   </main>
